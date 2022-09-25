@@ -5,8 +5,10 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to the user registration validation using c#");
-            ValidFirstName validFirstName = new ValidFirstName();
+            Patterns validFirstName = new Patterns();
             validFirstName.IsValidFirstName();
+            validFirstName.IsValidLastName();
+            validFirstName.IsValidEmail();
         }
     }
 }
